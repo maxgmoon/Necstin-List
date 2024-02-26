@@ -54,8 +54,8 @@ Rutas :
 > ![image](https://github.com/maxgmoon/Necstin-List/assets/66993948/e822fa1d-3ddf-4c7e-8036-4049bcbafa5c)
 > 
 
-2) AppData\Roaming\NecstinList <-- (Deberemos crear la carpeta - cuidar mayusculas y minusculas). - En esta ruta colocaremos el ejecutable EventMonitor2.0.exe
-> _AppData\Roaming\NecstinList <-- (We should create the folder - mind the capitalization). - In this path, we will place the executable EventMonitor2.0.exe_
+2) AppData\Roaming\Necstinlist <-- (Deberemos crear la carpeta - cuidar mayusculas y minusculas). - En esta ruta colocaremos el ejecutable EventMonitor2.0.exe
+> _AppData\Roaming\Necstinlist <-- (We should create the folder - mind the capitalization). - In this path, we will place the executable EventMonitor2.0.exe_
 > ![image](https://github.com/maxgmoon/Necstin-List/assets/66993948/e41bc7da-d544-45a0-80bd-34730fe0d0e4)
 
 
