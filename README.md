@@ -1,8 +1,5 @@
 ### Primera version estable / First stable version - Necstin List v.0.8-24.25.02-beta - First release
 
-Muchos errores han sido solucionados en esta gran actualización.
-A lot of issues are fixed at this first major actualization. 
-
 Esta versión ha cambiado para trabajar con archivos CSV simples, para gestionar listas de espera, UsersDB, archivos de configuración, etc... anteriormente se utilzaban bases de datos SQLite, pero por tratarse de bases de datos pequeñas y que a veces las consultas a bases de datos pueden ser bloqueadas por los servidores, se optó por trabajar con archivos CSV.
 
 > _This version has changed to work with simple CSV files, to manage waiting lists, UsersDB, configuration files, etc... previously SQLite databases were used, but because they are small databases and sometimes queries to databases can be blocked by servers, we chose to work with CSV files._
