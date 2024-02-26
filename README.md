@@ -68,7 +68,8 @@ Solamente tendremos que volver a las rutas dar clic derecho en el archivo, clic 
 La instalación manual solo es necesaria para esta version beta. 
 - [ ] La siguiente versión incluirá un instalador de versiones (en desarrollo).
 >_The manual installation is only necessary for this beta version._
->- _[ ] The next version will include a version installer (currently in development)._
+>- [ ] _The next version will include a version installer (currently in development)._
+
 >![image](https://github.com/maxgmoon/Necstin-List/assets/66993948/966a5ea1-8d8b-45e5-b4f6-4f2062006819)
 
 
