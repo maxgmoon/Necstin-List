@@ -1,4 +1,4 @@
-### Primera version estable / First stable version - Necstin List v.0.8-24.25.02-beta - First release
+### Primera version estable / First stable version - Necstin List v.0.1.02.25-beta - First release
 
 Necstin list es un plugin para Revit que agrega algunas funciones al trabajo colaborativo. El principal objetivo: tener un control sobre las actualiazaciones de los usuarios en el modelo. 
 Basicamente el uso de dos botones principales manejarán una lista de espera para poder tener un control en cuanto a tiempos de sincronización. 
