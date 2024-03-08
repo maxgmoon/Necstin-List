@@ -1,4 +1,4 @@
-### Primera version estable / First stable version - Necstin List v.0.1.02.25-beta - First release
+### Primera version estable / First stable version - Necstin List v.0.1.03.05-beta - First release
 
 Necstin list es un plugin para Revit que agrega algunas funciones al trabajo colaborativo. El principal objetivo: tener un control sobre las actualiazaciones de los usuarios en el modelo. 
 Basicamente el uso de dos botones principales manejarán una lista de espera para poder tener un control en cuanto a tiempos de sincronización. 
@@ -26,49 +26,29 @@ EventsLog.logixt es el archivo donde se registran trodos los eventos referentes 
 
 > _The EventsLog.logixt file is where all events related to model synchronization are recorded: Entry, Exit, Start and completion of synchronization, including statuses like 'Succeeded,' 'Cancelled,' or 'Failed,' depending on the state returned by Revit, synchronization completion, etc._
 
->![image](https://github.com/maxgmoon/Necstin-List/assets/66993948/a86ec8e5-a013-4cec-8bd2-ae3a9f914d97)
+>![image](https://github.com/maxgmoon/Necstin-List/assets/66993948/b8fb0e70-89a1-4003-ba20-10e081fdc1cd)
 >
 
 Configuraciones: / _Configurations:_
->![image](https://github.com/maxgmoon/Necstin-List/assets/66993948/ae819d8f-3155-4350-8723-f0f06e80a850)
+>![image](https://github.com/maxgmoon/Necstin-List/assets/66993948/dd5b0cf8-2b97-4ec1-90a9-4d0272d64271)
 
 
-Y bueno, algunas otras utilidades: / _Some other utilities included:_
+
+Y algunas otras utilidades: / _Some other utilities included:_
 >![image](https://github.com/maxgmoon/Necstin-List/assets/66993948/bfcf3794-9166-48ac-9753-3b2d41c7e31f)
 >
 
->[!NOTE]
-Instalación:
-Por ahora la instalación see puede hacer de manera manual, en la siguiente version, se incluirá un instalador par poder elegir las versiones de revit necesarias.
+> [!NOTE]
+>
+> - [X] ¡El instalador de versiones está listo! 
+>
+>Solo selecciona las versiones que deseas instalar.
+>
+>
+> - [X] _Release installer is ready!_
+>
+> _Just select the versions you want to install._
 
->[!NOTE]
->_Installation:_
->_For now, the installation can be done manually. In the next version, an installer will be included to choose the necessary Revit versions._ 
-
-Rutas :
-1) AppData\Roaming\Autodesk\Revit\Addins\2023 <-- {Versión de Revit deseada}  - En esta ruta colocaremos el archivo manifest NecstinList.addin, en esa misma ruta crearemos una subcarpeta llamada NecstinList (Cuidar mayusculas y minusculas), y dentro colocaremos el archivo NecstinList.dll
-
-> Paths:
-> _AppData\Roaming\Autodesk\Revit\Addins\2023 <-- {Desired Revit Version} - In this path, we will place the manifest file NecstinList.addin. Within the same path, we will create a subfolder named NecstinList (please mind the capitalization), and inside it, we'll place the NecstinList.dll file._
-
-> ![image](https://github.com/maxgmoon/Necstin-List/assets/66993948/e822fa1d-3ddf-4c7e-8036-4049bcbafa5c)
-> 
-
-2) AppData\Roaming\Necstinlist <-- (Deberemos crear la carpeta - cuidar mayusculas y minusculas). - En esta ruta colocaremos el ejecutable EventMonitor2.0.exe
-> _AppData\Roaming\Necstinlist <-- (We should create the folder - mind the capitalization). - In this path, we will place the executable EventMonitor2.0.exe_
-> ![image](https://github.com/maxgmoon/Necstin-List/assets/66993948/e41bc7da-d544-45a0-80bd-34730fe0d0e4)
-
-
-En algunos casos será necesario desbloquear los archivos NecstinList.dll y EventMonitor2.0.exe al ser arvchivos provenientes de la web, windows 10 en adelante, bloquearán los archivos por defecto.
-Solamente tendremos que volver a las rutas dar clic derecho en el archivo, clic en "Propiedades", marcar la casilla "Desbloquear" y clic en aceptar. Listo, ahora podremos ejectuar el plugin sin problemas.
->_In some cases, it will be necessary to unblock the files NecstinList.dll and EventMonitor2.0.exe since they are files from the web. Starting from Windows 10, the files will be blocked by default. Simply navigate back to the paths, right-click on the file, click on 'Properties,' check the 'Unblock' box, and click 'OK.' That's it! Now you can run the plugin without any issues._
->![image](https://github.com/maxgmoon/Necstin-List/assets/66993948/e48fd3b9-82be-4e84-aef5-7f88993491e6)
-
-
-La instalación manual solo es necesaria para esta version beta. 
-- [ ] La siguiente versión incluirá un instalador de versiones (en desarrollo).
->_The manual installation is only necessary for this beta version._
->- [ ] _The next version will include a version installer (currently in development)._
 
 >![image](https://github.com/maxgmoon/Necstin-List/assets/66993948/966a5ea1-8d8b-45e5-b4f6-4f2062006819)
 
