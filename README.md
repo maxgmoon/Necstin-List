@@ -1,4 +1,4 @@
-### Primera version estable / First stable version - Necstin List v.0.1.03.05-beta - First release
+# Primera version estable / First stable version - Necstin List v.0.1.03.05-beta - First release
 
 Necstin list es un plugin para Revit que agrega algunas funciones al trabajo colaborativo. El principal objetivo: tener un control sobre las actualiazaciones de los usuarios en el modelo. 
 Basicamente el uso de dos botones principales manejarán una lista de espera para poder tener un control en cuanto a tiempos de sincronización. 
@@ -58,3 +58,38 @@ Y algunas otras utilidades: / _Some other utilities included:_
 Esta versión ha cambiado para trabajar con archivos CSV simples, para gestionar listas de espera, UsersDB, archivos de configuración, etc... anteriormente se utilzaban bases de datos SQLite, sin embargo, por tratarse de bases de datos pequeñas y que a veces las consultas a bases de datos pueden ser bloqueadas por los servidores, se optó por trabajar con archivos CSV.
 
 > _This version has changed to work with simple CSV files, to manage waiting lists, UsersDB, configuration files, etc... previously SQLite databases were used, but because they are small databases and sometimes queries to databases can be blocked by servers, we chose to work with CSV files._
+
+# Necstin List v.0.1.03.10-beta
+
+## Esta versión 0.1.03.10 inluye dos cambios esenciales: 
+### Se integró la capacidad de elegir y mostrar una imagen de usuario en las notificaciones para facilitar el reconocimiento del usuario que ha relalizado la acción, esta imagen puede ser mostrada u ocultada. 
+
+>_This version 0.1.03.10 includes two essential changes:_
+>_The ability to choose and display a user image in notifications has been integrated. This makes it easier to identify the user who performed the action. This image can be shown or hidden._
+
+![image](https://github.com/maxgmoon/Necstin-List/assets/66993948/1108fd90-cf7b-4ac2-9ae3-8fbf9d2deb58)
+
+una vez que el usuario elija una imagen, será procesada y añadida a un archivo Json, contenido en la carpeta del modelo en cuestión, desde donde se leera cada vez que se lance una notificación.
+
+>_Once the user chooses an image, it will be processed and added to a JSON file. This file is located in the folder of the model in question. The image will be read from this file each time a notification is launched._
+
+### Y además se ha añadido un botón para poder mostrar un mensaje personalizado para todos los usuarios que estén en el modelo. Este mensaje se mostrará una vez, cuando sea lanzado o cada vez que se inicie EventMonitor y puede ser ocultado por el usuario.
+
+>_Además se ha añadido un botón para poder mostrar un mensaje personalizado para todos los usuarios que estén en el modelo. Este mensaje se mostrará una vez, cuando sea lanzado o cada vez que se inicie EventMonitor y puede ser ocultado por el usuario._
+
+![image](https://github.com/maxgmoon/Necstin-List/assets/66993948/d0f32f9e-a836-4f2b-bd06-59f4706c5afc)
+
+
+Este mensaje se desplegará por medio un archivo de registro en la misma carpeta que el Archivo EventsLog.logixt el cual tiene un formato:
+[Tittle=tittle]
+[Message=message]
+el cual puede ser modificado manualmente, sin embargo es preferente que se use la herrameinta integrada en EventMonitor.
+
+>_This message will be displayed through a log file located in the same folder as the EventsLog.logixt file. The file follows a specific format:_
+>
+>_[Title=title]_
+>_[Message=message]_
+>_Although the message can be modified manually, it is preferable to use the tool integrated into EventMonitor._
+
+Ademas, se han realizado algunas otras correciones menores en código.
+>_Additionally, some other minor code fixes have been implemented._
