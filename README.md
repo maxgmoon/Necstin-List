@@ -81,14 +81,16 @@ una vez que el usuario elija una imagen, será procesada y añadida a un archivo
 
 
 Este mensaje se desplegará por medio un archivo de registro en la misma carpeta que el Archivo EventsLog.logixt el cual tiene un formato:
-[Tittle=tittle]
-[Message=message]
+>[Tittle=tittle]
+>[Message=message]
+>
 el cual puede ser modificado manualmente, sin embargo es preferente que se use la herrameinta integrada en EventMonitor.
 
 >_This message will be displayed through a log file located in the same folder as the EventsLog.logixt file. The file follows a specific format:_
 >
 >_[Title=title]_
 >_[Message=message]_
+>
 >_Although the message can be modified manually, it is preferable to use the tool integrated into EventMonitor._
 
 Ademas, se han realizado algunas otras correciones menores en código.
